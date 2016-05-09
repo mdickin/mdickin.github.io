@@ -2,7 +2,7 @@
 layout: post
 author: Matt Dickinson
 title:  "Loading Node modules from an external path"
-date:   2016-04-30
+date:   2016-04-27
 tags:
   - nodejs
   - pumlhorse
