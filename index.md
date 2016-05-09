@@ -3,7 +3,7 @@ title: Matt Dickinson
 layout: default
 ---
 
-<div class="col-md-12">
+<div class="col-md-9">
 <div class="box">
 
 Developer by day, developer by night after the kids are asleep. Don’t worry, I do other stuff too.
@@ -14,6 +14,13 @@ a tool for easily creating integration tests and DevOps scripts
 Currently working in the Des Moines area.
 
 Unless otherwise stated, all views on this site are my own and not representative of any current or previous employer.
+
+</div>
+</div>
+<div class="col-md-9">
+<div class="box">
+
+{% include blog_feed.html %}
 
 </div>
 </div>
