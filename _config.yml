@@ -1,0 +1,8 @@
+name: mdickin
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  parse_block_html: true
+contenturl: "/blog/content/"
+permalink: /:year/:month/:day/:title/
