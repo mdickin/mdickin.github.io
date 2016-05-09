@@ -10,9 +10,12 @@
 			</div>
 		</div>
     <div class="body container">
-      
-      {{ content }}
-
+      <div class="col-md-9">
+        {{ content }}
+      </div>
+      <div class="col-md-3">
+        {% include blog_feed.html %}
+      </div>
     </div>
     {% include footer.html %}
   </body>

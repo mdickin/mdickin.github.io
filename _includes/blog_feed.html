@@ -1,6 +1,8 @@
+<div class="box">
 {% for post in site.categories.blog limit: 5 %}
     <section>
         <a class="post-link" href="{% if post.stuburl %}{{ post.stuburl }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
     </section>
 {% endfor %}
+</div>
