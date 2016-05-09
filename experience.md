@@ -1,6 +1,6 @@
 ---
 title: Experience
-layout: default
+layout: article
 ---
 
 **Revelio** (April 2015 – present)
