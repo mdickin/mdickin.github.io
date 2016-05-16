@@ -5,5 +5,4 @@
         <a class="post-link" href="{% if post.stuburl %}{{ post.stuburl }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
     </section>
 {% endfor %}
-    <a href="/blog/archive">All posts</a>
 </div>
