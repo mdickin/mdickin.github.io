@@ -44,8 +44,8 @@ As the Subword Navigation documentation hints at, you can look for the cursorLef
  "command": "subwordNavigation.cursorSubwordRightSelect",
  "when": "editorTextFocus"
  }
- ```
- 
+```
+
 When you’re done, it should look something like this:
 
 ```json
@@ -83,7 +83,6 @@ When you’re done, it should look something like this:
     }
 ]
 ```
- 
 
 Note that I have extra key bindings. I swapped _ctrl+t_ and _ctrl+p_ to (somewhat) replicate the Resharper Go To Everything feature.
 
