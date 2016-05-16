@@ -34,12 +34,15 @@ I ran the `spawnUpFront` scenario first, and it ran around 19 seconds. I had to 
 That way I could watch it go from 5000 to 0, because otherwise I couldn’t tell anything was going on.
 
 ![CPU usage of upfront scenario]({{ site.contenturl }}nodejs-cluster-cpu-upfront.png)
+
 *Note: The test is only running in the last 20 seconds*
 
 “Well, that was pretty painless”, I thought. “I wonder what the on demand scenario is like”
 
 ![CPU usage of onDemand scenario]({{ site.contenturl }}nodejs-cluster-cpu-ondemand.png)
+
 OH GOD NO MAKE IT STOP
+
 And that’s not even the full duration. In all, the test took about 180 – 190 seconds…an order of magnitude above the first scenario. 
 Now, this test was nowhere near scientific, but I’m comfortable saying that generating child processes on demand is **not** a viable approach.
 
