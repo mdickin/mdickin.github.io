@@ -180,6 +180,10 @@ ul.list {
     text-align: center;
 }
 
+hr {
+	border-top: 1px solid #000;
+}
+
 /* Footer sitemap */
 
 footer ul.sitemap {
@@ -191,7 +195,15 @@ footer ul.sitemap > li {
     display: inline;
 }
 
+/* Blog */
+
+.blog-navigation {
+	font-size: 14pt;
+	margin-bottom: 20px;
+}
+
 /* Blog feed */
 #blog-feed section {
 	margin-bottom: 5px;
 }
+
