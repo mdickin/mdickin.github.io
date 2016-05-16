@@ -192,6 +192,6 @@ footer ul.sitemap > li {
 }
 
 /* Blog feed */
-.post-link {
-    
+#blog-feed section {
+	margin-bottom: 5px;
 }
