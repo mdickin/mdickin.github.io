@@ -3,7 +3,7 @@ title: Matt Dickinson
 layout: article
 ---
 
-Developer by day, developer by night after the kids are asleep. Don’t worry, I do other stuff too.
+<span class="booming-voice">Developer by day, developer by night<span> after the kids are asleep. Don’t worry, I do other stuff too.
 
 Creator of [Revelio](https://getrevelio.com), an enterprise API documentation management tool, and [Pumlhorse](http://pumlhorse.com),
 a tool for easily creating integration tests and DevOps scripts

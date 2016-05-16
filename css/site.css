@@ -186,6 +186,11 @@ hr {
 	border-top: 1px solid #000;
 }
 
+.booming-voice {
+    font-size: 18pt;
+    font-family: serif;
+}
+
 /* Footer sitemap */
 
 footer ul.sitemap {
