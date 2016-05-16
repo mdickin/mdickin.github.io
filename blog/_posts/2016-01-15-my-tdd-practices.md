@@ -62,7 +62,9 @@ Finally, **unit testing does not guarantee that your requirements are correct**.
 * Tests are organized into Arrange, Act, and Assert
 
 **Arrange** – Data and stub setup. What data are we pretending exists in the database? What HTTP response code should this fake service return? What's the request I'm going to be passing in to the code being tested?
+
 **Act** – Call the method being tested. This is usually a single line
+
 **Assert** – Verify that the code performed as expected. Did I get the right values back? Did I correctly call the downstream code?
 
 ## Good TDD Practices

@@ -15,6 +15,7 @@ I’m always a proponent of making unit tests easier to write and understand, so
 I’ve already started using it for [Revelio](https://getrevelio.com) code. Here are a couple looks at how it can clean things up.
 
 ![Before]({{ site.contenturl }}assertchain-before.png)
+
 ![After]({{ site.contenturl }}assertchain-after.png)
 
 When dealing with hierarchical data, the nesting of assertions really improves readability.
