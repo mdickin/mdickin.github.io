@@ -70,7 +70,9 @@ I first added a test task (`.vscode/tasks.json`) to run tests in the active test
 
 I feel like I have to be doing this wrong, as it's setting `command` to `nosetests` for all tasks. It seems like you'd want to define `command`
 at the task level, but Code yells at me when I try that. In any case, `taskName` gets passed as a parameter to `nosetests`, so we use the 
-token `${file}` to get the filename of the active (focused) file.
+token `${file}` to get the filename of the active (focused) file. I primarily did this because the project had integration tests
+that I didn't want to have to run every time. [Here](https://code.visualstudio.com/Docs/editor/tasks#_variable-substitution) are some other options
+if you don't want to limit yourself to the current file.
 
 The next step was to bind a keyboard shortcut to run the tests. I used F6, as it wasn't bound to anything else.
 
@@ -82,3 +84,7 @@ The next step was to bind a keyboard shortcut to run the tests. I used F6, as it
     }
 ]
 ```
+
+Running the task will print to the Tasks output window.
+
+![Good deal]({{ site.contenturl}}python-unit-test-output.png)
