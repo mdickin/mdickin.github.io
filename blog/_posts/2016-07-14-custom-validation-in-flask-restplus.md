@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Matt Dickinson
-title:  "Custom Validation in Flask Restplus"
+title:  "Custom Validation in Flask RESTPlus"
 date:   2016-07-14
 tags:
   - code
