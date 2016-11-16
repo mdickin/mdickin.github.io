@@ -2,7 +2,7 @@
 layout: post
 author: Matt Dickinson
 title:  "Markdown Shortcuts Extension for VSCode"
-date:   2016-16-14
+date:   2016-16-14 17:45:00
 tags:
   - code
   - markdown
