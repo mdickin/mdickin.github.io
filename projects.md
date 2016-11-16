@@ -18,7 +18,6 @@ It supports any number of teams and projects.
 
 [Highly-readable scripting tool](http://pumlhorse.com) for quickly generating integration tests, DevOps scripts, or just JavaScript scratchpads. 
 Out-of-the-box HTTP request support, with support for custom modules.
-Visual Studio Code extension coming soon.
 
 ## markdown-shortcuts
 
