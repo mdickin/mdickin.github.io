@@ -40,6 +40,7 @@ Therefore, it doesn't display as a checkbox in Code's Markdown preview window.
 
 Adding tables was a different story. I was less certain of how users would want to interact with the command. I ended up working on
 two (three) use cases:
+
 1. User wants to create a new table and just needs some scaffolding (I forgot the syntax again!)
 2. User wants to convert some tabular data into a table and...
     1. define the column headers, or
