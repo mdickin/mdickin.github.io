@@ -24,7 +24,9 @@ over things like display order, display text, and menu hierarchies. Currently, e
 my title bar buttons would display the order "Toggle bold", "Toggle bullet points", "Toggle italic", "Toggle number list". I ended up
 removing the list buttons, as it looked bizarre having Bold and Italic separated. I've submitted an 
 [enhancement request](https://github.com/Microsoft/vscode/issues/15596), so I'll wait to see what the team decides with this.
-I know other things come in to play, in terms of ordering icons across multiple extensions. 
+I know other things come in to play, in terms of ordering icons across multiple extensions.
+
+**Update:** it turns out this was already a feature but had been left out of documentation.
 
 Fortunately, the context menu allows you to group items, but only in a flat list. I ended up excluding some of the shortcuts
 from the context menu, as it would have completely blown up the list. If I could have had a top-level "Heading" item, with a sub-menu
