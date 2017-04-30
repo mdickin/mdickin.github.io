@@ -100,7 +100,7 @@ Recently, Amazon added a "Skill Builder" UI interface for designing skills. Feel
 
 Essentially, the above defines a command `FindPerson` that accepts a name and passes that in the `person` parameter. Next, we'll go to the Configuration page.
 
-Alexa takes our `FindPerson` command and passes it to a web API. You can host it with Amazon, or you can use any other site over HTTPS. For this article we're use the fantastic [Glitch](https://www.glitch.com) by Fog Creek, so we can add the URL there and click Next.
+Alexa takes our `FindPerson` command and passes it to a web API. You can host it with Amazon, or you can use any other site over HTTPS. For this article we'll use the fantastic [Glitch](https://www.glitch.com) by Fog Creek, so we can add the URL there and click Next.
 
 ![Configure skill]({{ site.contenturl }}alexa-configure-skill.png)
 
