@@ -2,7 +2,7 @@
 layout: post
 author: Matt Dickinson
 title:  "Server Protocol Violation in ASP.NET"
-date:   2016-11-16 17:45:00
+date:   2016-12-06 17:45:00
 tags:
   - code
   - asp.net
