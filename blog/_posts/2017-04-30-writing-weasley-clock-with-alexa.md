@@ -10,8 +10,6 @@ tags:
   - pumlhorse
 ---
 
-# Writing a Weasley Clock with Alexa
-
 In the Harry Potter universe, the Weasley family owns a clock that, rather than telling the time, tracks where friends and family members are. That is all I will say about the Weasley Clock because I'm sure the Potterheads can find 17 things wrong with that sentence. For our muggle purposes, we will use [Alexa](https://developer.amazon.com/alexa) and a handful of other technologies to do the same.
 
 At a high level, we will need to accomplish the following:
