@@ -27,7 +27,7 @@ For this project, we will be creating a "skill" for Alexa. This is essentially a
 
 In the upper right corner, click the "Add a New Skill" button. There are three options, but we'll stick with "Custom Interaction Model". Pick a Name and Invocation Name, and click Save, then click Next.
 
-![Creating a skill]({{ site.contenturl }}alexa-create-skill.png)
+![Creating a skill]({{ site.contenturl }}alexa-create-skill.png){:class="img-responsive"}
 
 Recently, Amazon added a "Skill Builder" UI interface for designing skills. Feel free to play around with it, but we're just going to paste some JSON
 
@@ -102,7 +102,7 @@ Essentially, the above defines a command `FindPerson` that accepts a name and pa
 
 Alexa takes our `FindPerson` command and passes it to a web API. You can host it with Amazon, or you can use any other site over HTTPS. For this article we'll use the fantastic [Glitch](https://www.glitch.com) by Fog Creek, so we can add the URL there and click Next.
 
-![Configure skill]({{ site.contenturl }}alexa-configure-skill.png)
+![Configure skill]({{ site.contenturl }}alexa-configure-skill.png){:class="img-responsive"}
 
 If you're following along and using Glitch, you can choose "My development endpoint is a sub-domain of ..." and click Next.
 
@@ -299,7 +299,7 @@ You can see that in addition to variables, we can do simple expressions like `${
 
 [Cool cool cool](https://media.giphy.com/media/uCZPNoeoaLjt6/giphy.gif). Now we need a way to send our location data. I have an Android phone with [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) installed. I normally just have it set up to put my phone on vibrate at work and unsilence it at home, but it's capable of a lot more. Suffice it to say, it's capable of making HTTP requests, so I've set it up to make POST requests to the weasley-clock API every ten minutes. Running this often is pretty unnecessary, and Tasker gives a lot more options (run when you connect to a certain WiFi, go to a certain location, etc), but it'll work for now. Here's what the action looks like in Tasker (retrieving the current location with `%LOC`):
 
-![Tasker configuration]({{ site.contenturl }}alexa-tasker-config.png)
+![Tasker configuration]({{ site.contenturl }}alexa-tasker-config.png){:class="img-responsive"}
 
 ## Returning Location Data to Alexa
 
