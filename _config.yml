@@ -6,3 +6,5 @@ kramdown:
   parse_block_html: true
 contenturl: "/blog/content/"
 permalink: /:year/:month/:day/:title/
+gems:
+  - jekyll-feed
