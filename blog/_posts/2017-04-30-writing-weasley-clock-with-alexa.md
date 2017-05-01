@@ -297,11 +297,13 @@ steps:
 
 You can see that in addition to variables, we can do simple expressions like `${ user == null || location == null }` and call functions like `$date()`.
 
+## Updating our location
+
 [Cool cool cool](https://media.giphy.com/media/uCZPNoeoaLjt6/giphy.gif). Now we need a way to send our location data. I have an Android phone with [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) installed. I normally just have it set up to put my phone on vibrate at work and unsilence it at home, but it's capable of a lot more. Suffice it to say, it's capable of making HTTP requests, so I've set it up to make POST requests to the weasley-clock API every ten minutes. Running this often is pretty unnecessary, and Tasker gives a lot more options (run when you connect to a certain WiFi, go to a certain location, etc), but it'll work for now. Here's what the action looks like in Tasker (retrieving the current location with `%LOC`):
 
 ![Tasker configuration]({{ site.contenturl }}alexa-tasker-config.png){:class="img-responsive"}
 
-## Returning Location Data to Alexa
+## Returning location data to Alexa
 
 Now that we have location data, we can actually answer Alexa's questions. Unfortunately, most people won't be interested to hear latitude/longitude information, so we need to convert it to something useful. Fortunately, [Google's Maps API](https://developers.google.com/maps/documentation/geocoding/start) provides a [Reverse Geocoding](https://developers.google.com/maps/documentation/geocoding/intro#ReverseGeocoding) endpoint. This will translate our position to a multitude of addresses, from street number to country. We'll try to find something somewhere in between.
 
@@ -396,12 +398,12 @@ steps:
 
 ## Taking it further
 
-This project has a lot of possibilities for extension. For starters, we should include some API key in the requests so we don't have unauthorized people adding location data.
+This project has a lot of possibilities for extension. For starters, we should include some API key in the requests so we don't have unauthorized people adding location data. I've already implemented this in the code because I just don't trust you, The Internet (and neither should you).
 
 Some other ideas:
 
 * **Configure location names** - Associate a given radius as a known location, so Alexa will say "work", rather than "Brooklyn"
 * **Allow alternate names** - It's one thing for my wife to say "Where is Matt", but my kids would want to say "Where is daddy?"
-* **User interface** - The previous two enhancements would be best served by a UI. Did I mention Pumlhorse can server HTML too?
+* **User interface** - The previous two enhancements would be best served by a UI. Did I mention Pumlhorse can serve HTML too?
 
 A final note: please let me know if you try out Pumlhorse, I'm very interested in feedback! You can contact me on Twitter ([@mdickin_dev](https://www.twitter.com/mdickin_dev) or [@pumlhorse](https://www.twitter.com/pumlhorse)), or use [Github](https://www.github.com/pumlhorse/pumlhorse).
